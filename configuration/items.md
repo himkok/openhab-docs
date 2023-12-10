@@ -527,8 +527,8 @@ Group:Number                  Lights       "Active Lights [%d]"              // 
 Group:Switch:OR(ON,OFF)       Lights       "Active Lights [%d]"              // e.g. ON and "2"
 Group:Switch:AND(ON,OFF)      Lights       "Active Lights [%d]"              // e.g. ON and "2"
 Group:Number:Temperature:AVG  Temperatures "All Room Temperatures [%.1f °C]" // e.g. "21.3 °C"
-Group:DateTime:EARLIEST       LatestUpdate "Latest Update [%1$tY.%1$tm.%1$tY %1$tH:%1$tM:%1$tS]"
-Group:DateTime:LATEST         LastSeen     "Last Seen [%1$tY.%1$tm.%1$tY %1$tH:%1$tM:%1$tS]"
+Group:DateTime:EARLIEST       LatestUpdate "Latest Update [%1$tY.%1$tm.%1$td %1$tH:%1$tM:%1$tS]"
+Group:DateTime:LATEST         LastSeen     "Last Seen [%1$tY.%1$tm.%1$td %1$tH:%1$tM:%1$tS]"
 Group:Number:COUNT("OFFLINE") OfflineDevices "Offline Devices [%d]"     // e.g. "2"
 ```
 
